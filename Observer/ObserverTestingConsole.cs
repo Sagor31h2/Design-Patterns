@@ -2,10 +2,18 @@
 
 namespace Observer
 {
-    internal class Program
+    public class ObserverTestingConsole
     {
-        private static void Main(string[] args)
+        public ObserverTestingConsole()
         {
+
+        }
+
+        public void Test()
+        {
+            Console.WriteLine("From Observer");
+
+
             var weatherData = new WeatherData();
 
             var currentConditionDisplay = new CurrentCoditionDisplay(weatherData);
