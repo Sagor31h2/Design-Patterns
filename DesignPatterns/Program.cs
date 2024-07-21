@@ -1,15 +1,18 @@
-﻿using Observer;
+﻿using Strategy;
 
 namespace DesignPatterns
 {
     internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
 
-            var ob =new ObserverTestingConsole();
-            ob.Test();
+            //var ob =new ObserverTestingConsole();
+            //ob.Test();
+
+            var st = new StrategyTesingConsole();
+            st.Test();
         }
     }
 }
