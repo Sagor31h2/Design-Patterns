@@ -5,9 +5,11 @@ VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{D79C2E61-3AC1-4779-9671-19B21914ECF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{6A0F4F98-8EDB-47F2-86DC-83045C88FE68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Observer\Observer.csproj", "{6A0F4F98-8EDB-47F2-86DC-83045C88FE68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{50941C38-BF1A-4792-9ECE-6AF215E76C94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strategy.csproj", "{50941C38-BF1A-4792-9ECE-6AF215E76C94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{94E5970C-4C6E-42BB-9C11-963F6A603BD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{50941C38-BF1A-4792-9ECE-6AF215E76C94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50941C38-BF1A-4792-9ECE-6AF215E76C94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50941C38-BF1A-4792-9ECE-6AF215E76C94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94E5970C-4C6E-42BB-9C11-963F6A603BD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94E5970C-4C6E-42BB-9C11-963F6A603BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94E5970C-4C6E-42BB-9C11-963F6A603BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94E5970C-4C6E-42BB-9C11-963F6A603BD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
