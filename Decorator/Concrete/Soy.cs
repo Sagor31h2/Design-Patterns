@@ -15,7 +15,7 @@ namespace Decorator.Concrete
 
         public override string GetDescription()
         {
-            return beverage.GetDescription() + "Soy";
+            return beverage.GetDescription() + ", Soy";
         }
     }
 }
