@@ -8,7 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AbstractFactory\AbstractFactory.csproj" />
     <ProjectReference Include="..\Decorator\Decorator.csproj" />
+    <ProjectReference Include="..\Factory\Factory.csproj" />
     <ProjectReference Include="..\Observer\Observer.csproj" />
     <ProjectReference Include="..\Strategy\Strategy.csproj" />
   </ItemGroup>

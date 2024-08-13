@@ -1,4 +1,5 @@
 ﻿using Decorator;
+using Factory;
 using Observer;
 using Strategy;
 
@@ -38,6 +39,10 @@ namespace DesignPatterns
                 {
                     new DecoratorConsoleTest().Test();
 
+                }
+                else if (number == 4)
+                {
+                    new FactoryTest().Test();
                 }
             }
         }
