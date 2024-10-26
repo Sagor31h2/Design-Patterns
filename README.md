@@ -116,6 +116,14 @@ Behavioral Patterns are concerned with algorithms and the assignment of responsi
 <h1>Head First Design Patterns</h1>
 From Here the book chapter starts
 
-[Chapter 1 | Strategy Pattern](./Strategy/README.md)
-[Chapter 2 | Observer Pattern](./Observer/README.md)
-[Chapter 3 | Decorator Pattern](./Decorator/RADME.md)
+- [Chapter 1 | Strategy Pattern](./Strategy/README.md)
+
+- [Chapter 2 | Observer Pattern](./Observer/README.md)
+
+- [Chapter 3 | Decorator Pattern](./Decorator/RADME.md)
+
+- [Chapter 4 | Factory Pattern](./Factory/README.md)
+
+- [Chapter 4 | Abstract Factory Pattern](./AbstractFactory/README.md)
+
+- [Chapter 5 | Singleton Pattern](./Singleton/README.md)
