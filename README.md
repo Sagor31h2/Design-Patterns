@@ -31,12 +31,12 @@ Design patterns are reusable solutions to common problems in software design. Th
 
 There are three types of Design Patterns:
 
-- Creational Design Pattern
+<!-- - Creational Design Pattern
 - Structural Design Pattern
-- Behavioral Design Pattern
-
+- Behavioral Design Pattern -->
 <h2> Creational Design Patterns </h2>
-
+<details> 
+<summary> Click to Expand </summary>
 Creational Design Pattern abstract the instantiation process. They help in making a system independent of how its objects are created, composed and represented.
 
 1. **Factory Method Design Pattern:**
@@ -53,9 +53,11 @@ Creational Design Pattern abstract the instantiation process. They help in makin
 
 5. **Builder Method Design Pattern:**
    Builder pattern aims to “Separate the construction of a complex object from its representation so that the same construction process can create different representations.” It is used to construct a complex object step by step and the final step will return the object.
+</details>
 
 <h2>Structural Design Patterns </h2>
-
+<details> 
+<summary> Click to Expand </summary>
 Structural Design Patterns are concerned with how classes and objects are composed to form larger structures. Structural class patterns use inheritance to compose interfaces or implementations.
 
 1. **Adapter Method Design Pattern:**
@@ -78,9 +80,10 @@ Structural Design Patterns are concerned with how classes and objects are compos
 
 7. **Proxy Method Design Pattern:**
    Proxy means ‘in place of’, representing’ or ‘in place of’ or ‘on behalf of’ are literal meanings of proxy and that directly explains Proxy Design Pattern. Proxies are also called surrogates, handles, and wrappers. They are closely related in structure, but not purpose, to Adapters and Decorators.
-
+</details>
 <h2> Behavioral Design Patterns </h2>
-
+<details> 
+<summary> Click to Expand </summary>
 Behavioral Patterns are concerned with algorithms and the assignment of responsibilities between objects. Behavioral patterns describe not just patterns of objects or classes but also the patterns of communication between them. These patterns characterize complex control flow that’s difficult to follow at run-time.
 
 1. **Chain Of Responsibility Method Design Pattern:**
@@ -113,6 +116,7 @@ Behavioral Patterns are concerned with algorithms and the assignment of responsi
 10. **Visitor Method Design Pattern:**
     It is used when we have to perform an operation on a group of similar kind of Objects. With the help of visitor pattern, we can move the operational logic from the objects to another class.
 
+</details>
 <h1>Head First Design Patterns</h1>
 From Here the book chapter starts
 
@@ -127,3 +131,4 @@ From Here the book chapter starts
 - [Chapter 4 | Abstract Factory Pattern](./AbstractFactory/README.md)
 
 - [Chapter 5 | Singleton Pattern](./Singleton/README.md)
+- [Chapter 6 | Command Pattern](./Command/README.md)
