@@ -124,11 +124,11 @@ From Here the book chapter starts
 
 - [Chapter 2 | Observer Pattern](./Observer/README.md)
 
-- [Chapter 3 | Decorator Pattern](./Decorator/RADME.md)
+- [Chapter 3 | Decorator Pattern](./DesignPatterns/Decorator/RADME.md)
 
-- [Chapter 4 | Factory Pattern](./Factory/README.md)
+- [Chapter 4 | Factory Pattern](./DesignPatterns/Factory/README.md)
 
-- [Chapter 4 | Abstract Factory Pattern](./AbstractFactory/README.md)
+- [Chapter 4 | Abstract Factory Pattern](./DesignPatterns/AbstractFactory/README.md)
 
 - [Chapter 5 | Singleton Pattern](./Singleton/README.md)
-- [Chapter 6 | Command Pattern](./Command/README.md)
+- [Chapter 6 | Command Pattern](./DesignPatterns/Command/README.md)
