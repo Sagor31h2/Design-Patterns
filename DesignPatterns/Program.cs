@@ -2,9 +2,9 @@
 using DesignPatterns.CommandPattern;
 using DesignPatterns.Decorator;
 using DesignPatterns.Factory;
-using Observer;
-using Strategy;
-
+using DesignPatterns.Observer;
+using DesignPatterns.Singleton;
+using DesignPatterns.Strategy;
 namespace DesignPatterns
 {
     internal class Program
@@ -34,12 +34,10 @@ namespace DesignPatterns
                 switch (number)
                 {
                     case 1:
-                        var ob = new ObserverTestingConsole();
-                        ob.Test();
+                        new ObserverPatternConsole().Test();
                         break;
                     case 2:
-                        var st = new StrategyTesingConsole();
-                        st.Test();
+                        new StrategyPatternConsole().Test();
                         break;
                     case 3:
                         new DecoratorPatternConsole().Test();
@@ -48,9 +46,12 @@ namespace DesignPatterns
                         new FactoryPatternConsole().Test();
                         break;
                     case 5:
-                        new AbstractFactoryTest().Test();
+                        new SingletonPatternConsole().Test();
                         break;
                     case 6:
+                        new AbstractFactoryTest().Test();
+                        break;
+                    case 7:
                         new CommandPatternConsole().Test();
                         break;
                     default:
