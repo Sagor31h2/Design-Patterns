@@ -131,3 +131,4 @@ From Here the book chapter starts
 - [Chapter 4 | Abstract Factory Pattern](./DesignPatterns/AbstractFactory/README.md)
 - [Chapter 5 | Singleton Pattern](./DesignPatterns/Singleton/README.md)
 - [Chapter 6 | Command Pattern](./DesignPatterns/Command/README.md)
+- [Chapter 9 | Iterator Patter](./DesignPatterns/Iterator/README.md)

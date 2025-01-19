@@ -19,8 +19,12 @@ namespace DesignPatterns
                 Console.WriteLine("1. Observer Pattern");
                 Console.WriteLine("2. Strategy Pattern");
                 Console.WriteLine("3. Decorator Pattern");
-                Console.WriteLine("4. Factory Pattern");
-                Console.WriteLine("5. Abstract Factory Pattern");
+                Console.WriteLine("4. Singleton Pattern");
+                Console.WriteLine("5.  Factory Pattern");
+                Console.WriteLine("6. Abstract Factory Pattern");
+                Console.WriteLine("7. Command Pattern");
+                Console.WriteLine("8 Iterator Pattern");
+
 
                 var input = Console.ReadLine();
 
@@ -43,10 +47,10 @@ namespace DesignPatterns
                         new DecoratorPatternConsole().Test();
                         break;
                     case 4:
-                        new FactoryPatternConsole().Test();
+                        new SingletonPatternConsole().Test();
                         break;
                     case 5:
-                        new SingletonPatternConsole().Test();
+                        new FactoryPatternConsole().Test();
                         break;
                     case 6:
                         new AbstractFactoryTest().Test();
@@ -54,6 +58,10 @@ namespace DesignPatterns
                     case 7:
                         new CommandPatternConsole().Test();
                         break;
+                    case 8:
+                        new IteratorPatternExample.Iterator().Test();
+                        break;
+
                     default:
                         Console.WriteLine("You provided wrong input\n");
                         break;
