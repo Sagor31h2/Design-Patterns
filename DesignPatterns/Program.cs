@@ -1,4 +1,5 @@
 ﻿using AbstractFactory;
+using CompositePatternExample;
 using DesignPatterns.CommandPattern;
 using DesignPatterns.Decorator;
 using DesignPatterns.Factory;
@@ -24,6 +25,7 @@ namespace DesignPatterns
                 Console.WriteLine("6. Abstract Factory Pattern");
                 Console.WriteLine("7. Command Pattern");
                 Console.WriteLine("8 Iterator Pattern");
+                Console.WriteLine("9 Composite Pattern");
 
 
                 var input = Console.ReadLine();
@@ -61,7 +63,9 @@ namespace DesignPatterns
                     case 8:
                         new IteratorPatternExample.Iterator().Test();
                         break;
-
+                    case 9:
+                        new CompositePattern().Test();
+                        break;
                     default:
                         Console.WriteLine("You provided wrong input\n");
                         break;

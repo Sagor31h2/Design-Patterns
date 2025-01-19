@@ -132,3 +132,4 @@ From Here the book chapter starts
 - [Chapter 5 | Singleton Pattern](./DesignPatterns/Singleton/README.md)
 - [Chapter 6 | Command Pattern](./DesignPatterns/Command/README.md)
 - [Chapter 9 | Iterator Patter](./DesignPatterns/Iterator/README.md)
+- [Chapter 9 | Composite Patter](./DesignPatterns/Composite/README.md)
