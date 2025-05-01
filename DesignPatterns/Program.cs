@@ -5,6 +5,7 @@ using DesignPatterns.Decorator;
 using DesignPatterns.Factory;
 using DesignPatterns.Observer;
 using DesignPatterns.Singleton;
+using DesignPatterns.State;
 using DesignPatterns.Strategy;
 namespace DesignPatterns
 {
@@ -26,6 +27,8 @@ namespace DesignPatterns
                 Console.WriteLine("7. Command Pattern");
                 Console.WriteLine("8 Iterator Pattern");
                 Console.WriteLine("9 Composite Pattern");
+                Console.WriteLine("10 State Pattern");
+
 
 
                 var input = Console.ReadLine();
@@ -65,6 +68,9 @@ namespace DesignPatterns
                         break;
                     case 9:
                         new CompositePattern().Test();
+                        break;
+                    case 10:
+                        new StatePattern().Test();
                         break;
                     default:
                         Console.WriteLine("You provided wrong input\n");
