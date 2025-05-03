@@ -4,6 +4,7 @@ using DesignPatterns.CommandPattern;
 using DesignPatterns.Decorator;
 using DesignPatterns.Factory;
 using DesignPatterns.Observer;
+using DesignPatterns.Proxy;
 using DesignPatterns.Singleton;
 using DesignPatterns.State;
 using DesignPatterns.Strategy;
@@ -28,6 +29,7 @@ namespace DesignPatterns
                 Console.WriteLine("8 Iterator Pattern");
                 Console.WriteLine("9 Composite Pattern");
                 Console.WriteLine("10 State Pattern");
+                Console.WriteLine("11 Proxy Pattern");
 
 
 
@@ -71,6 +73,9 @@ namespace DesignPatterns
                         break;
                     case 10:
                         new StatePattern().Test();
+                        break;
+                    case 11:
+                        new ProxyDesignPattern().Test();
                         break;
                     default:
                         Console.WriteLine("You provided wrong input\n");
