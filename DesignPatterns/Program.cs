@@ -30,6 +30,9 @@ namespace DesignPatterns
                 Console.WriteLine("9 Composite Pattern");
                 Console.WriteLine("10 State Pattern");
                 Console.WriteLine("11 Proxy Pattern");
+                Console.WriteLine("12 Compound Pattern (Duck Simulator)");
+
+                Console.WriteLine("0. Exit\n");
 
 
 
@@ -76,6 +79,9 @@ namespace DesignPatterns
                         break;
                     case 11:
                         new ProxyDesignPattern().Test();
+                        break;
+                    case 12:
+                        new DuckSimulator().Test();
                         break;
                     default:
                         Console.WriteLine("You provided wrong input\n");
