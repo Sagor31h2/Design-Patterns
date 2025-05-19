@@ -135,4 +135,6 @@ From Here the book chapter starts
 - [Chapter 9 | Composite Patter](./DesignPatterns/Composite/README.md)
 - [Chapter 10 | State Patter](./DesignPatterns/State/README.md)
 - [Chapter 11 | Proxy Patter](./DesignPatterns/Proxy/README.md)
+- [Chapter 12 | Compound Patter](./DesignPatterns/Compound/README.md)
+
 
